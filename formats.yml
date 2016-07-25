@@ -187,11 +187,12 @@ jo: |-
 #  〒163-1480
 #  東京都新宿区西新宿3-20-2
 #  アップルジャパン株式会社 本社
+# Edited format for Metaps usage
 jp: |-
-    〒{{zip}}
-    {{state}}{{city}}{{street}}
-    {{recipient}}
     {{country}}
+    〒{{zip}}
+    {{state}} {{city}} {{street}}
+    {{recipient}}
 kr: |-
     {{recipient}}
     {{street}}
